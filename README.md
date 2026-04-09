@@ -10,4 +10,5 @@ O projeto Controle de Tarefas tem como objetivo auxiliar na organização de ati
 | Nome | GitHub |
 |------|--------|
 | Otávio Felix da Silva | @OtavioFelix-in |
-| Felipe Veríssimo | @ |
+| Felipe Veríssimo Oliveira | @FelipeV21 |
+| Leonardo Henrique dos Santos | @LeonardoHSantos1612 |
