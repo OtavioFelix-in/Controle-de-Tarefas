@@ -12,3 +12,13 @@ O projeto Controle de Tarefas tem como objetivo auxiliar na organização de ati
 | Otávio Felix da Silva | @OtavioFelix-in |
 | Felipe Veríssimo Oliveira | @FelipeV21 |
 | Leonardo Henrique dos Santos | @LeonardoHSantos1612 |
+
+
+## Arquitetura
+
+```mermaid
+graph TD
+A[Usuário - CLI] --> B[Cadastro de tarefas]
+B --> C[Lista em memória ou banco]
+C --> D[Exibir tarefas]
+D --> E[Atualizar status]
