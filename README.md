@@ -16,10 +16,12 @@ O projeto Controle de Tarefas tem como objetivo automatizar o gerenciamento de a
 
 ## Arquitetura
 
+
 ```mermaid
 graph TD
 A[Usuário - Google Sheets] --> B[Cadastro de nova tarefa]
 B --> C[n8n detecta nova linha]
-C --> D[Classificação de Prioridade ]
+C --> D[Classificação de Prioridade]
 D --> E{API}
-E -->G[Envio de e-mail
+E --> G[Envio de e-mail]
+```
