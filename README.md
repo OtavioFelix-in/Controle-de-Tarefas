@@ -20,7 +20,6 @@ O projeto Controle de Tarefas tem como objetivo automatizar o gerenciamento de a
 graph TD
 A[Usuário - Google Sheets] --> B[Cadastro de nova tarefa]
 B --> C[n8n detecta nova linha]
-C --> D[API de Inteligência Artificial]
-D --> E{Classificação de Prioridade}
-E -->|Alta| F[Envio de e-mail prioritário]
-E -->|Baixa| G[Envio de e-mail padrão]
+C --> D[Classificação de Prioridade ]
+D --> E{API}
+E -->G[Envio de e-mail
